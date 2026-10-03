@@ -134,7 +134,7 @@ Sensitive credential values should be masked or excluded when sharing assessment
 
 ### 1. Terminal & Nmap Scan
 
-![Terminal Nmap Scan](01-terminal-nmap-scan.png)
+![Terminal Nmap Scan](terminal-nmap-scan.jpeg)
 
 ### 2. SMTP User Enumeration
 
