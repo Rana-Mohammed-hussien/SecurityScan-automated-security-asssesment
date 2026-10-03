@@ -138,27 +138,27 @@ Sensitive credential values should be masked or excluded when sharing assessment
 
 ### 2. SMTP User Enumeration
 
-![SMTP User Enumeration](02-smtp-user-enumeration.png)
+![SMTP User Enumeration](smtp-user-enumeration..jpeg)
 
 ### 3. Hydra Credential Auditing
 
-![Hydra Credential Auditing](03-hydra-credential-auditing.png)
+![Hydra Credential Auditing](hydra-credential-auditing.jpeg)
 
 ### 4. SMB Enumeration
 
-![SMB Enumeration](04-smb-enumeration.png)
+![SMB Enumeration](smb-enumeration.jpeg)
 
 ### 5. SMB Anonymous Access
 
-![SMB Anonymous Access](05-smb-anonymous-access.png)
+![SMB Anonymous Access](smb-anonymous-access.jpeg)
 
 ### 6. Security Assessment Report
 
-![Security Assessment Report](06-security-assessment-report.png)
+![Security Assessment Report](security-assessment-report.jpeg)
 
 ### 7. Credential Audit Results
 
-![Credential Audit Results](07-credential-audit-results.png)
+![Credential Audit Results](credential-audit-results.jpeg)
 
 ## Learning Outcomes
 
