@@ -177,3 +177,52 @@ Building SecScan helped strengthen practical skills in:
 This tool is intended for authorized security testing and educational lab environments only.
 
 Do not use SecScan against systems without explicit permission.
+```mermaid
+graph TD
+    
+    classDef start_end fill:#2ecc71,stroke:#27ae60,stroke-width:2px,color:#fff;
+    classDef process fill:#3498db,stroke:#2980b9,stroke-width:2px,color:#fff;
+    classDef condition fill:#f1c40f,stroke:#f39c12,stroke-width:2px,color:#333;
+    classDef tool fill:#9b59b6,stroke:#8e44ad,stroke-width:2px,color:#fff;
+
+
+    A([Target IP Address]) --> B(Reachability Check / Ping)
+    
+    B --> C{Is Host Alive?}
+    class A,O start_end;
+    class B,D,F,N process;
+    class C condition;
+    class E,G,H,I,J,K,M tool;
+
+    C -- No --> X[Exit Script with Error]
+    class X fill:#e74c3c,stroke:#c0392b,stroke-width:2px,color:#fff;
+    
+    C -- Yes --> D(Full-Port Nmap Scan)
+    D --> E[Service & Version Detection]
+    
+    E --> F(Parse Open Ports & Services)
+    
+
+    F --> G[FTP: Anonymous Access Check]
+    F --> H[SSH / Telnet: Banner Grabbing]
+    F --> I[DNS: SOA Information Gathering]
+    
+    F --> J[SMTP: User Enumeration via smtp-user-enum]
+    J --> K[Hydra: Credential Auditing using Discovered Users]
+    
+    F --> L[HTTP: Security Headers, phpinfo & Path Discovery via cURL]
+    class L tool;
+    
+    F --> M[SMB: Anonymous Share Enumeration]
+
+    
+    G --> N(Collect Security Findings)
+    H --> N
+    I --> N
+    K --> N
+    L --> N
+    M --> N
+    
+    N --> O[[Generate HTML Security Report]]
+```
+
