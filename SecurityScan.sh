@@ -552,9 +552,9 @@ if [[ "$1" == "-h" || "$1" == "--help" ]]; then
     echo "   Automated Security Assessment Tool (Secscan)  "
     echo "=================================================="
     echo "Usage:"
-    echo "  ./PentestTool.sh <target_ip>   Start the security scan on target"
-    echo "  ./PentestTool.sh --help        Show this help message"
-    echo "  ./PentestTool.sh --version     Show tool version information"
+    echo "  ./SecurityScan.sh <target_ip>   Start the security scan on target"
+    echo "  ./SecurityScan.sh --help        Show this help message"
+    echo "  ./SecurityScan.sh --version     Show tool version information"
     echo "=================================================="
 
     exit 0
