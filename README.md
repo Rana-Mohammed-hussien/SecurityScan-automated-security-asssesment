@@ -93,8 +93,7 @@ Based on the identified services, SecScan performs different security checks.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/secscan-automated-security-assessment.git
-cd secscan-automated-security-assessment
+git clone https://github.com/Rana-Mohammed-hussien/SecurityScan-automated-security-assessment.git
 ```
 
 Make the script executable:
