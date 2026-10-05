@@ -572,7 +572,7 @@ fi
 
 if [[ -z "$Target" ]]; then
 
-   echo "Usage: ./PentestTool.sh <target>"
+   echo "Usage: ./SecurityScan.sh <target>"
    exit 1
 
 fi
